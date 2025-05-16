@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kingbobmod",
+	"version": "${version}",
+	"name": "King Bob Mod",
+	"description": "I made this mod because I was bored. And it meant cool shit could be added to servers :)",
+	"authors": [
+		"TheLIM23 (Liam Martin)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/kingbobmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.thelim23.kingbobmod.KingBobMod"
+		],
+		"fabric-datagen": [
+			"com.thelim23.kingbobmod.KingBobModDataGenerator"
+		],
+		"client": [
+			"com.thelim23.kingbobmod.KingBobModClient"
+		]
+	},
+	"mixins": [
+		"kingbobmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
