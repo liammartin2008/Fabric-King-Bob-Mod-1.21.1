@@ -1,9 +1,9 @@
 {
-  "type": "minecraft_crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
     "#": {
-      "item": "kingbobmod:pink_garent"
+      "item": "kingbobmod:pink_garnet"
     }
   },
   "pattern": [
