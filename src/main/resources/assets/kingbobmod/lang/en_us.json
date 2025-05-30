@@ -2,5 +2,11 @@
   "item.kingbobmod.pink_garnet": "Pink Garnet",
   "item.kingbobmod.raw_pink_garnet": "Raw Pink Garnet",
   "item.kingbobmod.banana": "Banana",
-  "item.kingbobmod.cheese": "Cheese"
+  "item.kingbobmod.cheese": "Cheese",
+
+  "block.kingbobmod.pink_garnet_block": "Pink Garnet Block",
+  "block.kingbobmod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+
+
+  "itemgroup.kingbobmod.king_bob": "King Bob"
 }

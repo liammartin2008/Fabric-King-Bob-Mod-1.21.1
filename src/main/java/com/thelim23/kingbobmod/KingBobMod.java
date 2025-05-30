@@ -1,5 +1,7 @@
 package com.thelim23.kingbobmod;
 
+import com.thelim23.kingbobmod.block.ModBlocks;
+import com.thelim23.kingbobmod.item.ModItemGroups;
 import com.thelim23.kingbobmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +14,9 @@ public class KingBobMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

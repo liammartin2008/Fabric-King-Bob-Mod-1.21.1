@@ -1,0 +1,18 @@
+{
+  "type": "minecraft_crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "kingbobmod:pink_garent"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "kingbobmod:pink_garnet_block"
+  }
+}
