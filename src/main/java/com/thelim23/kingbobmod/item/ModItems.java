@@ -13,8 +13,8 @@ public class ModItems {
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
 
-    public static final Item BANANA = registerItem("banana", new Item(new Item.Settings()));
-    public static final Item CHEESE = registerItem("cheese", new Item(new Item.Settings()));
+    public static final Item BANANA = registerItem("banana", new Item(new Item.Settings().food(ModFoodComponents.BANANA)));
+    public static final Item CHEESE = registerItem("cheese", new Item(new Item.Settings().food(ModFoodComponents.CHEESE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(KingBobMod.MOD_ID,  name), item);

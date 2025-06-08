@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "kingbobmod:pink_garnet_block",
+    "kingbobmod:raw_pink_garnet_block",
+    "kingbobmod:pink_garnet_ore",
+    "kingbobmod:pink_garnet_deepslate_ore"
+  ]
+}
